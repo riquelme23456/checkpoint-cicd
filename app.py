@@ -11,3 +11,13 @@ def status():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+@app.route("/tickets")
+def tickets():
+    return {
+        "tickets": [
+            {"id": 1, "titulo": "Erro ao logar", "status": "aberto"},
+            {"id": 2, "titulo": "Lentidão no dashboard", "status": "em andamento"}
+        ]
+    }
