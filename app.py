@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Rota raiz: usada para checagem simples de que a API está no ar
 @app.route("/")
 def status():
-    return {"status": "operacional e no ar"}
+    return {"status": "API funcionando perfeitamente e disponível"}
 
 
 if __name__ == "__main__":
