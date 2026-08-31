@@ -1,0 +1,18 @@
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Configurações locais
+.env
+instance/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
