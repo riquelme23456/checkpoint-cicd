@@ -21,3 +21,11 @@ def tickets():
             {"id": 2, "titulo": "Lentidão no dashboard", "status": "em andamento"}
         ]
     }
+
+
+@app.route("/sobre")
+def sobre():
+    return {
+        "nome": "OpsTrack API",
+        "versao": "1.0.0"
+    }
