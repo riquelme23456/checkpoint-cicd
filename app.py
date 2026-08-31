@@ -6,7 +6,7 @@ app = Flask(__name__)
 # --- ROTAS ---
 
 @app.route("/", methods=["GET"])
-def status():
+def status(): #CHOCOLATE COM PÌMENTA
     """Rota de Health Check (Checagem de Saúde)"""
     return jsonify({"status": "operacional e no ar"}), 200
 
