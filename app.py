@@ -38,4 +38,5 @@ if __name__ == "__main__":
     
     # app.run é recomendado APENAS para desenvolvimento local.
     # Em produção, utilize um servidor WSGI/ASGI como Gunicorn ou Waitress.
+    # teste
     app.run(host="0.0.0.0", port=5000, debug=debug_mode)
