@@ -5,9 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def status():
-    return {
-        "status": "API online"
-    }
+    return {"status": "API online"}
 
 
 if __name__ == "__main__":
